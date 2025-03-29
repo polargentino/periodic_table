@@ -1,3 +1,4 @@
+-- Database version 1.0
 --
 -- PostgreSQL database dump
 --
