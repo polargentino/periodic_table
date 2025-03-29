@@ -25,3 +25,9 @@ else
         done
     fi
 fi
+
+# Input validation
+if [[ ! $1 =~ ^[0-9A-Za-z]+$ ]]; then
+  echo 'Invalid input. Please use atomic number, symbol or name.'
+  exit 1
+fi
